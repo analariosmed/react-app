@@ -1,0 +1,23 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/one"
+            },
+            "response": {
+                "status": 200
+            }
+        },
+        {
+            "id": "8c5db8b0-2db4-4ad7-a99f-38c9b00da3f7",
+            "request": {
+                "method": "POST",
+                "urlPattern": "/lasalle-student.*"
+            },
+            "response": {
+                "body": "{\"students\":[{\"id\":1,\"name\":\"Augusto\",\"surname\":\"Madeira\",\"dob\":\"1987-12-28T00:00:00.000Z\",\"course\":\"ti\"},{\"id\":2,\"name\":\"augusto\",\"surname\":\"splett\",\"dob\":\"1987-12-28T00:00:00.000Z\",\"course\":\"ti\"},{\"id\":3,\"name\":\"Pablo\",\"surname\":\"Marçal\",\"dob\":\"1980-12-12T00:00:00.000Z\",\"course\":\"Marketing\"},{\"id\":4,\"name\":\"José \",\"surname\":\"Lima Sobrinho\",\"dob\":\"1960-10-10T00:00:00.000Z\",\"course\":\"Arts\"},{\"id\":5,\"name\":\"Durval\",\"surname\":\"de Lima\",\"dob\":\"1958-02-11T00:00:00.000Z\",\"course\":\"Arts\"},{\"id\":6,\"name\":\"Joao silva\",\"surname\":\"Joao silva\",\"dob\":\"2000-01-01T00:00:00.000Z\",\"course\":\"math\"},{\"id\":7,\"name\":\"Adalberto\",\"surname\":\"Leal\",\"dob\":\"1987-01-12T00:00:00.000Z\",\"course\":\"Mobile\"},{\"id\":8,\"name\":\"sdf\",\"surname\":\"sdf\",\"dob\":\"1900-12-13T00:00:00.000Z\",\"course\":\"sdf\"},{\"id\":9,\"name\":\"Ana Carolina\",\"surname\":\"Rezende\",\"dob\":\"2020-12-13T00:00:00.000Z\",\"course\":\"IT\"},{\"id\":10,\"name\":\"Ana\",\"surname\":\"test\",\"dob\":\"1100-12-13T00:00:00.000Z\",\"course\":\"test api\"}],\"pagination\":{\"page\":1,\"limit\":10,\"totalItems\":34,\"totalPages\":4}}"
+            }
+        }
+    ]
+}

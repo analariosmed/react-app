@@ -1,0 +1,24 @@
+meta {
+  name: POST api bad origni
+  type: http
+  seq: 6
+}
+
+post {
+  url: https://api.barcelos.dev/lasalle-student/
+  body: json
+  auth: none
+}
+
+headers {
+  Origin: http://localhost:8080
+}
+
+body:json {
+  {
+      "name": "dd",
+      "surname": "dd",
+      "dob": "1987-12-27",
+      "course": "dd"
+  }
+}
